@@ -4,7 +4,7 @@ library(stringr)
 
 #? Vamos começar com os dados de pokemon
 #? https://www.kaggle.com/datasets/igorcoelho24/pokemon-all-generations/versions/1?resource=download
-dados <- read.csv("Dados/Pokemon_full.csv")
+dados <- read.csv("Pokemon_full.csv")
 head(dados) 
 
 #? Exemplo: contar o número de linhas de dados
