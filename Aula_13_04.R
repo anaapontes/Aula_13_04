@@ -29,5 +29,4 @@ df_fogo_e_agua <- dados %>% filter(type == "fire" | type == "water")
 dados %>% filter(grepl("fly", name))
 
 #TODO Vamos filtrar todos os pokemons que tem  "bee" ou "saur"
-dados %>% filter(grepl("bee", name))
-dados %>% filter(grepl("saur", name))
+dados %>% filter(grepl("bee", name) | (grepl("saur", name)))
